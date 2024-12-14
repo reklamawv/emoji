@@ -33,10 +33,15 @@
             margin-bottom: 10px;
         }
     </style>
+    <script src="https://vk.com/js/api/mobile_sdk.js"  type="text/javascript"></script>
 </head>
 
 <body>
-
+<script language="javascript">
+            VK.init({
+              apiId: 51777648
+            });
+            </script>
     <h1>Графический редактор</h1>
     <canvas id="canvas" width="500" height="500"></canvas>
     <div id="brushSizeContainer" class="form-group">
